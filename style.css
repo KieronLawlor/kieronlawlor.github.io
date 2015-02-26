@@ -1,18 +1,15 @@
-html {
+body {
 	background-color: #6EC043;
+	color:#ffffff;
+	font-family:helvetica, arial, sans-serif;
+	text-align:center;
 }
 
 h1 {
-	color: white;
-	font-family: helvetica;
-	text-align: center;
 	font-size: 60px;
 	margin-top: 250px;
 }
 
 p {
-	color: white;
-	font-family: helvetica;
-	text-align: center;
 	font-size: 25px;
 }
