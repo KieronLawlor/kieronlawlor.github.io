@@ -42,7 +42,6 @@ ul {
 }
 li {
 	display: inline;
-/*<<<<<<< HEAD*/
 	font-size: 1.62em;
 	color: #F8F8FF;
 	padding: 10px;
@@ -50,19 +49,7 @@ li {
 	background: rgba(98,178,18,.9);
 	font-weight: bold;
 	border-radius: 1em;
-/*=======
-	font-size: 1.62em;
-	color: #7CA72A;
-	padding: .5em;
-	margin: .25em;
-	margin-top: .25em;
-	background: rgba(41,101,166,.8);
-	font-weight: bold;
-	border-radius: 1em;*/
 }
-/*#contact {
-	background: #CC3214;
->>>>>>> origin/master*/
 a {
 	text-decoration: none;
 	color: #F8F8FF;
