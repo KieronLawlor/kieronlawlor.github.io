@@ -1,47 +1,122 @@
 body {
-	background-color: #7CA72A;
-	color: rgb(41,101,166);
-	font-family: helvetica, arial, sans-serif;
-	text-align: center;
+	color: #000000;
+	font-family: 'Roboto', helvetica, sans-serif;
 	font-size: 16px;
+	text-align: justify;
 }
 h1 {
-	font-size: 4em;
-	margin-top: 70px;
+	font-size: 5em;
+	margin-top: 15px;
+	text-align: left;
+	margin-left: 15px;
 }
 p {
-	font-size: 1.618em;
+	font-size: 1.62em;
 	padding: 2px;
 }
-#slogan {
-	font-style: italic;
+#splash {
+	color: #F8F8FF;
+	text-align: center;
+	background-image: url('images/main.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-#summary {
+#slogan {
+	margin-top: 15%;
+	font-size: 5em;
+	margin-left: 35%;
+	font-weight: bold;
+	text-align: left;
+}
+/*#summary {
 	font-size: 1.25em;
 	width: 971px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 130%;
-}
+	margin-top: 20%
+}*/
 ul {
-	margin: 40px;
+	margin-top: 20%;
 }
 li {
 	display: inline;
-	font-size: 1.618em;
-	color: #7CA72A;
+/*<<<<<<< HEAD*/
+	font-size: 1.62em;
+	color: #F8F8FF;
 	padding: 10px;
-	margin: 5px;
-	margin-top: 5px;
+	margin-right: 20px;
+	background: rgba(98,178,18,.9);
+	font-weight: bold;
+	border-radius: 1em;
+/*=======
+	font-size: 1.62em;
+	color: #7CA72A;
+	padding: .5em;
+	margin: .25em;
+	margin-top: .25em;
 	background: rgba(41,101,166,.8);
 	font-weight: bold;
-	border-radius: 15px
+	border-radius: 1em;*/
 }
-#contact {
+/*#contact {
 	background: #CC3214;
-}
+>>>>>>> origin/master*/
 a {
 	text-decoration: none;
-	color: #7CA72A;
+	color: #F8F8FF;
 }
+a:hover {
+	color: #1948FF;
+}
+.main {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}	
+.main p{
+	font-family: 'Libre Baskerville', serif;
+	line-height: 140%;
+	font-size: 1.62em;
+	text-align: justify;
+}
+.main div{
+	width: 50%;
+	height: 440px;
+}
+#intelligence div{
+	float: right;
+}
+#intelligence p{
+	margin: 20px;	
+	width: 50%;
+	height: 440px;
+}
+#insight div{
+	float: left;
+}
+#insight p{
+	margin: 20px;
+	height: 440px;
+}
+#marketing div{
+	float: right;
+}
+#marketing p{
+	width: 50%;
+	margin: 20px;
+}
+#integrity div{
+	float: left;
+}
+#integrity p{
+/*	width: 50%;*/
+	margin: 20px;
+}
+hr {
+	height: 5px;
+	background: #62B212;
+	border-radius: 1em;
+}
+
+
