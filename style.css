@@ -64,6 +64,12 @@ a {
 a:hover {
 	color: #1948FF;
 }
+div {
+	padding:1em;
+}
+div img {
+	width:100%;
+}
 .main {
 	margin-top: 5%;
 	margin-bottom: 5%;
@@ -75,36 +81,26 @@ a:hover {
 }
 .main div{
 	width: 50%;
-	height: 440px;
 }
 #intelligence div{
 	float: right;
 }
 #intelligence p{
-	margin: 20px;	
-	width: 50%;
-	height: 440px;
 }
 #insight div{
 	float: left;
 }
 #insight p{
-	margin: 20px;
-	height: 440px;
 }
 #marketing div{
 	float: right;
 }
 #marketing p{
-	width: 50%;
-	margin: 20px;
 }
 #integrity div{
 	float: left;
 }
 #integrity p{
-/*	width: 50%;*/
-	margin: 20px;
 }
 hr {
 	height: 5px;
