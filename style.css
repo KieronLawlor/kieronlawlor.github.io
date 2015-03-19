@@ -15,7 +15,7 @@ p {
 }
 section {
 	max-width:75em;
-	margin:0 auto;
+	margin:10em auto;
 }
 #splash {
 	color: #F8F8FF;
@@ -25,6 +25,8 @@ section {
 	background-size: cover;
 	background-attachment:fixed;
 	max-width:100%;
+	margin:0;
+	height:100vh;
 }
 #slogan {
 	background-color:rgba(107,179,34,.8);
@@ -70,10 +72,6 @@ div {
 div img {
 	width:100%;
 }
-.main {
-	margin-top: 5%;
-	margin-bottom: 5%;
-}	
 .main p{
 	font-family: 'Libre Baskerville', serif;
 	line-height: 140%;
