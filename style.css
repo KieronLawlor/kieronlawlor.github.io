@@ -12,8 +12,6 @@ h1 {
 	margin-left: 15px;
 }
 p {
-	font-size: 1.62em;
-	padding: 2px;
 }
 section {
 	max-width:75em;
@@ -26,7 +24,7 @@ section {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment:fixed;
-	width:100%;
+	max-width:100%;
 }
 #slogan {
 	background-color:rgba(107,179,34,.8);
@@ -35,6 +33,7 @@ section {
 	font-weight: bold;
 	padding:.5em;
 	text-align: left;
+	width:10.6em;
 }
 /*#summary {
 	font-size: 1.25em;
@@ -49,11 +48,11 @@ ul {
 	margin-top: 20%;
 }
 li {
-	display: inline;
+	float:left;
 	font-size: 1.62em;
 	color: #F8F8FF;
-	padding: 10px;
-	margin-right: 20px;
+	padding: .5em 1em;
+	margin-right: 1em;
 	background: rgba(98,178,18,.9);
 	font-weight: bold;
 	border-radius: 1em;
@@ -72,7 +71,6 @@ a:hover {
 .main p{
 	font-family: 'Libre Baskerville', serif;
 	line-height: 140%;
-	font-size: 1.62em;
 	text-align: justify;
 }
 .main div{
