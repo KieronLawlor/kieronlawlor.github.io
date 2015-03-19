@@ -1,3 +1,4 @@
+*{margin:0;padding:0;box-sizing:border-box;}
 body {
 	color: #000000;
 	font-family: 'Roboto', helvetica, sans-serif;
@@ -14,18 +15,25 @@ p {
 	font-size: 1.62em;
 	padding: 2px;
 }
+section {
+	max-width:75em;
+	margin:0 auto;
+}
 #splash {
 	color: #F8F8FF;
 	text-align: center;
 	background-image: url('images/main.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment:fixed;
+	width:100%;
 }
 #slogan {
-	margin-top: 15%;
+	background-color:rgba(107,179,34,.8);
+	margin:15% auto 0 auto;
 	font-size: 5em;
-	margin-left: 35%;
 	font-weight: bold;
+	padding:.5em;
 	text-align: left;
 }
 /*#summary {
@@ -105,5 +113,11 @@ hr {
 	background: #62B212;
 	border-radius: 1em;
 }
-
+.clearfix:after,section:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
 
