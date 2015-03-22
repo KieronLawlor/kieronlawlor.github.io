@@ -4,6 +4,10 @@ body {
 	font-family: 'Roboto', helvetica, sans-serif;
 	font-size: 16px;
 	text-align: justify;
+/*	background-image: url('london.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;*/
 }
 h1 {
 	font-size: 5em;
@@ -20,7 +24,7 @@ section {
 #splash {
 	color: #F8F8FF;
 	text-align: center;
-	background-image: url('images/main.jpg');
+	background-image: url('main.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment:fixed;
@@ -79,6 +83,9 @@ div img {
 }
 .main div{
 	width: 50%;
+}
+.flaticon {
+	text-align: center;
 }
 #intelligence div{
 	float: right;
