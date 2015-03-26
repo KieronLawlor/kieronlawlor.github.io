@@ -1,10 +1,10 @@
 	*{margin:0;padding:0;box-sizing:border-box;}
 body {
-	color: #000000;
+	color: #C0C0C0;
 	font-family: 'Roboto', helvetica, sans-serif;
 	font-size: 16px;
 	text-align: justify;
-/*	background-image: url('london.jpg');
+/*	background-image: url('backgroundsquares.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment:fixed;*/
@@ -15,7 +15,8 @@ h1 {
 	text-align: left;
 	margin-left: 15px;
 }
-p {
+h2 {
+	color: #A9A9A9;
 }
 section {
 	max-width:75em;
@@ -31,8 +32,12 @@ section {
 	max-width:100%;
 	margin:0;
 	height:100vh;
-
 }
+/*#splash img{
+	width: 34em;
+	height: 10em;
+	float: left;
+}*/
 #slogan {
 	background-color:rgba(107,179,34,.8);
 	margin:15% auto 0 auto;
@@ -84,33 +89,35 @@ div img {
 .main div{
 	width: 50%;
 }
+.readmore {
+	text-decoration: underline;
+	padding: .2em 0;
+	color: #62B212;
+	/*font-family: 'Roboto', helvetica, sans-serif;*/
+}
 .flaticon {
 	text-align: center;
 }
 #intelligence div{
 	float: right;
 }
-#intelligence p{
-}
 #insight div{
 	float: left;
-}
-#insight p{
 }
 #marketing div{
 	float: right;
 }
-#marketing p{
-}
 #integrity div{
 	float: left;
-}
-#integrity p{
 }
 hr {
 	height: 5px;
 	background: #62B212;
 	border-radius: 1em;
+}
+footer p {
+	padding: 2em;
+	font-size: 1.62em;
 }
 .clearfix:after,section:after { 
 	content: "."; 
