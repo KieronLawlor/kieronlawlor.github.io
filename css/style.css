@@ -66,15 +66,15 @@ li {
 	margin-right: 1em;
 	background: rgba(98,178,18,1);
 	font-weight: bold;
-	border-radius: 1em;
+	border-radius: .5em;
 }
 a {
 	text-decoration: none;
 	color: #F8F8FF;
 }
-a:hover {
+/*a:hover {
 	color: #1948FF;
-}
+}*/
 div {
 	padding:1em;
 }
