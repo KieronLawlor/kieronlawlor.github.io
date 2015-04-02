@@ -1,62 +1,63 @@
-	*{margin:0;padding:0;box-sizing:border-box;}
+*{margin:0;padding:0;box-sizing:border-box;}
 
 body {
 	font-family: 'Varela Round', sans-serif;
 	font-size: 16px;
 }
-
-#navigation {
-	height: 100px;
-	padding-top: 1em;
-	width: 100%;
-}
-#navigation img {
+header img {
 	float: left;
+	width:15em;
 }
 
-#navigation ul {
+nav {
 	float: right;
-	padding-top: 33px
+	margin-top:.5em;
 }
 
 ul {
     text-align: center;
+    list-style-type: none;
 }
 li {
-	background: rgba(127,186,0,1);
 	border-radius: .5em;	
-	color: #F8F8FF;	
-	display: inline;
+	float:left;
 	font-size: 1.62em;	
 	font-weight: bold;		
-	list-style-type: none;
 	margin-right: 1em;
 	padding: .5em 1em;
 }
 hr {
 	background: #62B212;
 	border-radius: 1em;
+	clear:both;
 	height: 5px;
-	margin-top: 2em;
 }
 a {
-	color: #F8F8FF;	
+}
+nav a {
+	color:rgba(127,186,0,1);
 	text-decoration: none;
+}
+nav a:hover {
+	background-color: rgba(127,186,0,1);
+	color:#f8f8ff;
 }
 #splash {
 	padding-top: 1em;
 }
 #splash img {
 	float: left;	
-	width: 33.3%;
+	width: 33.33%;
+}
+#slogan {
+	background-color:rgb(0, 0, 255);
+	color:#fff;
 }
 #slogan div{
-	background: blue;	
-	height: 25%;
-	width: 100%;
+	max-width:75em;
+	margin:auto;
 }
 p {
-	display: block;
 	font-size: 2em;
 	padding: 1em;	
 	text-align: center;
