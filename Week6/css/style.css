@@ -4,6 +4,20 @@ body {
 	font-family: 'Varela Round', sans-serif;
 	font-size: 16px;
 }
+h1,h2 {
+	font-size: 3em;
+	text-align: center;
+	padding-top: .5em;
+
+}
+p {
+	font-size: 1.62em;
+	padding: 1em;	
+	text-align: center;
+}
+header {
+	padding-top: 2em;
+}
 header img {
 	float: left;
 	width:15em;
@@ -13,7 +27,6 @@ nav {
 	float: right;
 	margin-top:.5em;
 }
-
 ul {
     text-align: center;
     list-style-type: none;
@@ -27,20 +40,21 @@ li {
 	padding: .5em 1em;
 }
 hr {
-	background: #62B212;
+	background: #7FBA00;
 	border-radius: 1em;
 	clear:both;
 	height: 5px;
 }
-a {
-}
 nav a {
 	color:rgba(127,186,0,1);
 	text-decoration: none;
+	padding: .2em;
+	margin-top: 1em;
 }
 nav a:hover {
 	background-color: rgba(127,186,0,1);
 	color:#f8f8ff;
+	border-radius: .2em;
 }
 #splash {
 	padding-top: 1em;
@@ -50,19 +64,180 @@ nav a:hover {
 	width: 33.33%;
 }
 #slogan {
-	background-color:rgb(0, 0, 255);
-	color:#fff;
+	padding: 3em;
+}
+#slogan p {
+	color: #333333;
+	padding: 1em 0;
+	line-height: 140%;
 }
 #slogan div{
-	max-width:75em;
+	max-width:70em;
 	margin:auto;
 }
-p {
-	font-size: 2em;
-	padding: 1em;	
+#teamsummary {
+	background: #f3f4f5;
+}
+#teamsummary div {
+	margin:0 auto;
+	max-width:75em;
+	padding: 3em;
+}
+#teamsummary h2 {
+	padding: .5em;
+}
+.teamintro p {
+	font-size: 1.2em;
+}
+#teamsummary .teamintro {
+	border-radius:.5em;
+	color:#7FBA00;
+	float:left;
+	min-height:16em;
+	padding:1em 2em 1em 1em;
+	text-align:justify;
+	width:32%;
+}
+.teamintro img {
+	border-radius:50%;
+	display:block;
+	margin-right:2em;
+	width:100%;
+}
+.teamintro h3 {
+	color: #333333;
+	font-size: 1.62em;
+	text-align: center;
+	padding: .5em;
+}
+.teamintro p {
+	overflow:hidden;
+	padding: 0 0 1em 0;
+}
+.teamintro a{
+	padding: .5em;
+	color: #F8F8FF;
+	background: #7FBA00;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 50%;
+	margin: auto;
+	border-radius: .2em;
+}
+.teamintro a:hover {
+	background-color: #62B212;
+}
+.fruitive {
+	max-width:85em;
+	margin:7em auto;
+	padding:1em;
+}
+.fruitive h2{
+	font-size: 2.5em;
+	text-align: justify;
+	padding-left: .5em;
+}
+.fruitive p{
+	font-size: 1.5em;
+	line-height: 140%;
+	text-align: justify;
+}
+.fruitive div{
+	width: 50%;
+}
+.fruitive img {
+	width:50%;
+	border-radius: 3em;
+}
+#headline1 div{
+	float: left;
+}
+#headline2 {
+	margin-top: 5em;
+}
+#headline2 div{
+	float: right;
+}
+.team {
+	max-width:85em;
+	margin: auto;
+	padding:3em;	
+}
+.team h3 {
+	font-size: 1.62em;
+	padding-left: 1em;
+	color:#7FBA00;
+
+}
+.team p{
+	font-size: 1.5em;
+	line-height: 140%;
+	text-align: justify;
+}
+.team div{
+	width: 75%;
+		padding-top: 5%;
+}
+.team img {
+	width:25%;
+	border-radius: 50%;
+}
+#meettheteam{
+	background: #f3f4f5;
+}
+#meettheteam div{
+	float: right;
+}
+#meettheteam hr {
+	background: #7FBA00;
+	border-radius: 1em;
+	clear:both;
+	height: 5px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+#contact div {
+	margin:0 auto;
+	max-width:75em;
+}
+#contact .contactclass {
+	border-radius:.5em;
+	color:#62B212;
+	float:left;
+	margin:.5%;
+	min-height:16em;
+	padding:1em 2em 1em 1em;
+	text-align:justify;
+	width:19%;
+}
+.contactclass img {
+	display:block;
+	margin-right:2em;
+	width:100%;
+}
+.contactclass h3 {
+	color: #333333;
+	margin-bottom:.2em;
+	font-size: 1.62em;
 	text-align: center;
 }
-.clearfix:after{ 
+.contactclass p {
+	overflow:hidden;
+}
+.contactclass a {
+	text-decoration: none;
+	color: #333333;
+}
+.contactclass a:hover {
+	color: #7FBA00;
+}
+footer {
+	font-size: 1.62em;
+	text-align: center;
+	padding: 2em;
+}
+.clearfix:after,section:after { 
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
