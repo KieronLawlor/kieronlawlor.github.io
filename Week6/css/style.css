@@ -130,8 +130,9 @@ nav a:hover {
 }
 .fruitive {
 	max-width:85em;
-	margin:7em auto;
+	margin:2em auto;
 	padding:1em;
+	background: #f3f4f5;
 }
 .fruitive h2{
 	font-size: 2.5em;
@@ -183,9 +184,9 @@ nav a:hover {
 	width:25%;
 	border-radius: 50%;
 }
-#meettheteam{
+/*#meettheteam{
 	background: #f3f4f5;
-}
+}*/
 #meettheteam div{
 	float: right;
 }
