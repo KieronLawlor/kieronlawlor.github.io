@@ -55,6 +55,7 @@ nav a:hover {
 	background-color: rgba(127,186,0,1);
 	color:#f8f8ff;
 	border-radius: .2em;
+	padding: 1em;
 }
 #splash {
 	padding-top: 1em;
