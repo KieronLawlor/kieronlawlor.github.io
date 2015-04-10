@@ -1,121 +1,147 @@
-*{margin:0;padding:0;box-sizing:border-box;}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 body {
 	font-family: 'Varela Round', sans-serif;
 	font-size: 16px;
 }
-h1,h2 {
+
+h1, h2 {
 	font-size: 3em;
 	text-align: center;
 	padding-top: .5em;
-
 }
+
 p {
 	font-size: 1.62em;
 	padding: 1em;
 	text-align: center;
 }
+
 header {
 	padding-top: 2em;
 }
+
 header img {
 	float: left;
-	width:15em;
+	width: 15em;
 }
 
 nav {
 	float: right;
-	margin-top:.5em;
+	margin-top: .5em;
 }
+
 ul {
-	 text-align: center;
-	 list-style-type: none;
+	text-align: center;
+	list-style-type: none;
 }
+
 li {
 	border-radius: .5em;
-	float:left;
+	float: left;
 	font-size: 1.62em;
 	font-weight: bold;
 	margin-right: 1em;
 	padding: .5em 1em;
 }
+
 hr {
 	background: #7FBA00;
 	border-radius: 1em;
-	clear:both;
+	clear: both;
 	height: 5px;
 }
+
 nav a {
-	color:rgba(127,186,0,1);
+	color: #7fba00;
 	text-decoration: none;
 	padding: .2em;
 	margin-top: 1em;
 }
+
 nav a:hover {
-	background-color: rgba(127,186,0,1);
-	color:#f8f8ff;
+	background-color: #7fba00;
+	color: #f8f8ff;
 	border-radius: .2em;
 	padding: 1em;
 }
+
 #splash {
 	padding-top: 1em;
 }
+
 #splash img {
 	float: left;
 	width: 33.33%;
 }
+
 #slogan {
 	padding: 3em;
 }
+
 #slogan p {
 	color: #333333;
 	padding: 1em 0;
 	line-height: 140%;
 }
-#slogan div{
-	max-width:70em;
-	margin:auto;
+
+#slogan div {
+	max-width: 70em;
+	margin: auto;
 }
+
 #teamsummary {
 	background: #f3f4f5;
 }
+
 #teamsummary div {
-	margin:0 auto;
-	max-width:75em;
+	margin: 0 auto;
+	max-width: 75em;
 	padding: 3em;
 }
+
 #teamsummary h2 {
 	padding: .5em;
 }
+
 .teamintro p {
 	font-size: 1.2em;
 }
+
 #teamsummary .teamintro {
-	border-radius:.5em;
-	color:#7FBA00;
-	float:left;
-	min-height:16em;
-	padding:1em 2em 1em 1em;
-	text-align:justify;
-	width:32%;
+	border-radius: .5em;
+	color: #7FBA00;
+	float: left;
+	min-height: 16em;
+	padding: 1em 2em 1em 1em;
+	text-align: justify;
+	width: 32%;
 }
+
 .teamintro img {
-	border-radius:50%;
-	display:block;
-	margin-right:2em;
-	width:100%;
+	border-radius: 50%;
+	display: block;
+	margin-right: 2em;
+	width: 100%;
 }
+
 .teamintro h3 {
 	color: #333333;
 	font-size: 1.62em;
 	text-align: center;
 	padding: .5em;
 }
+
 .teamintro p {
-	overflow:hidden;
+	overflow: hidden;
 	padding: 0 0 1em 0;
 }
-.teamintro a{
+
+.teamintro a {
 	padding: .5em;
 	color: #F8F8FF;
 	background: #7FBA00;
@@ -126,120 +152,144 @@ nav a:hover {
 	margin: auto;
 	border-radius: .2em;
 }
+
 .teamintro a:hover {
 	background-color: #62B212;
 }
+
 .fruitive {
-	max-width:85em;
-	margin:2em auto;
-	padding:1em;
+	max-width: 85em;
+	margin: 2em auto;
+	padding: 1em;
 	background: #f3f4f5;
 }
-.fruitive h2{
+
+.fruitive h2 {
 	font-size: 2.5em;
 	text-align: justify;
 	padding-left: .5em;
 }
-.fruitive p{
+
+.fruitive p {
 	font-size: 1.5em;
 	line-height: 140%;
 	text-align: justify;
 }
-.fruitive div{
+
+.fruitive div {
 	width: 50%;
 }
+
 .fruitive img {
-	width:50%;
+	width: 50%;
 	border-radius: 3em;
 }
-#headline1 div{
+
+#headline1 div {
 	float: left;
 }
+
 #headline2 {
 	margin-top: 5em;
 }
-#headline2 div{
+
+#headline2 div {
 	float: right;
 }
+
 .team {
-	max-width:85em;
+	max-width: 85em;
 	margin: auto;
-	padding:3em;
+	padding: 3em;
 }
+
 .team h3 {
 	font-size: 1.62em;
 	padding-left: 1em;
-	color:#7FBA00;
-
+	color: #7FBA00;
 }
-.team p{
+
+.team p {
 	font-size: 1.5em;
 	line-height: 140%;
 	text-align: justify;
 }
-.team div{
+
+.team div {
 	width: 75%;
-		padding-top: 5%;
+	padding-top: 5%;
 }
+
 .team img {
-	width:25%;
+	width: 25%;
 	border-radius: 50%;
 }
+
 /*#meettheteam{
 	background: #f3f4f5;
 }*/
-#meettheteam div{
+#meettheteam div {
 	float: right;
 }
+
 #meettheteam hr {
 	background: #7FBA00;
 	border-radius: 1em;
-	clear:both;
+	clear: both;
 	height: 5px;
 	max-width: 90%;
 	margin: 0 auto;
 }
+
 #contact div {
-	margin:0 auto;
-	max-width:75em;
+	margin: 0 auto;
+	max-width: 75em;
 }
+
 #contact .contactclass {
-	border-radius:.5em;
-	color:#62B212;
-	float:left;
-	margin:.5%;
-	min-height:16em;
-	padding:1em 2em 1em 1em;
-	text-align:justify;
-	width:19%;
+	border-radius: .5em;
+	color: #62B212;
+	float: left;
+	margin: .5%;
+	min-height: 16em;
+	padding: 1em 2em 1em 1em;
+	text-align: justify;
+	width: 19%;
 }
+
 .contactclass img {
-	display:block;
-	margin-right:2em;
-	width:100%;
+	display: block;
+	margin-right: 2em;
+	width: 100%;
 }
+
 .contactclass h3 {
 	color: #333333;
-	margin-bottom:.2em;
+	margin-bottom: .2em;
 	font-size: 1.62em;
 	text-align: center;
 }
+
 .contactclass p {
-	overflow:hidden;
+	overflow: hidden;
 }
+
 .contactclass a {
 	text-decoration: none;
 	color: #333333;
 }
+
 .contactclass a:hover {
 	color: #7FBA00;
 }
+
 footer {
 	font-size: 1.62em;
 	text-align: center;
 	padding: 2em;
 }
-.clearfix:after,section:after {
+
+.clearfix:after, section:after {
 	content: ".";
 	visibility: hidden;
 	display: block;
