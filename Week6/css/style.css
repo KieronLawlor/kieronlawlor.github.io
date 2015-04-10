@@ -238,41 +238,38 @@ nav a:hover {
 	max-width: 75em;
 }
 
+#contact {
+	width: 100%;
+}
 #contact .contactclass {
 	border-radius: .5em;
 	color: #62B212;
 	float: left;
-	margin: .5%;
+	margin: 1% 0;
 	min-height: 16em;
-	padding: 1em 2em 1em 1em;
-	text-align: justify;
-	width: 19%;
+	width: 20%;
 }
-
-.contactclass img {
+#contact .contactclass img {
 	display: block;
-	margin-right: 2em;
-	width: 100%;
+	margin: 0 auto;
+	width: 60%;
 }
-
-.contactclass h3 {
-	color: #333333;
-	margin-bottom: .2em;
+#contact .contactclass h3 {
+	color: #333;
 	font-size: 1.62em;
 	text-align: center;
+}
+#contact .contactclass a {
+	text-decoration: none;
+	color: #333333;
+	font-size: .75em;
+}
+#contact .contactclass a:hover {
+	color: #7FBA00;
 }
 
 .contactclass p {
 	overflow: hidden;
-}
-
-.contactclass a {
-	text-decoration: none;
-	color: #333333;
-}
-
-.contactclass a:hover {
-	color: #7FBA00;
 }
 
 footer {
