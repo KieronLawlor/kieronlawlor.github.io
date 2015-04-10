@@ -96,64 +96,56 @@ nav a:hover {
 
 #teamsummary {
 	background: #f3f4f5;
+	width: 100%;
+	margin: 0 auto;
 }
-
 #teamsummary div {
 	margin: 0 auto;
 	max-width: 75em;
 	padding: 3em;
 }
-
-#teamsummary h2 {
+#teamsummary div h2 {
 	padding: .5em;
 }
-
-.teamintro p {
-	font-size: 1.2em;
-}
-
-#teamsummary .teamintro {
+#teamsummary div .teamintro {
 	border-radius: .5em;
 	color: #7FBA00;
 	float: left;
-	min-height: 16em;
-	padding: 1em 2em 1em 1em;
-	text-align: justify;
-	width: 32%;
+	min-height: 18em;
+	text-align: center;
+	width: 33%;
+	margin: 0 auto;
+	padding: 0;
 }
-
-.teamintro img {
-	border-radius: 50%;
-	display: block;
-	margin-right: 2em;
-	width: 100%;
+#teamsummary div .teamintro img {
+	border-radius: 100%;
+	width: 30%;
+	margin: 0 auto;
 }
-
-.teamintro h3 {
-	color: #333333;
+#teamsummary div .teamintro h3 {
+	color: #333;
 	font-size: 1.62em;
 	text-align: center;
 	padding: .5em;
 }
-
-.teamintro p {
+#teamsummary div .teamintro p {
+	font-size: 1.2em;
 	overflow: hidden;
-	padding: 0 0 1em 0;
+	padding: 0 0 1em;
 }
-
-.teamintro a {
+#teamsummary div .teamintro a {
+	bottom: 0;
+	position: center;
 	padding: .5em;
 	color: #F8F8FF;
 	background: #7FBA00;
-	display: block;
 	text-align: center;
 	text-decoration: none;
-	width: 50%;
-	margin: auto;
+	width: 100%;
+	margin: 0 auto;
 	border-radius: .2em;
 }
-
-.teamintro a:hover {
+#teamsummary div .teamintro a:hover {
 	background-color: #62B212;
 }
 
