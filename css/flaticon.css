@@ -32,3 +32,22 @@
 	content: "\e003";
 	color: #ffb900;
 }
+
+@media only screen and (max-width: 768px) {
+		[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+		font-family: Flaticon;
+    	font-size: 15em;
+		font-style: normal;
+	}		
+
+	}
+@media only screen and (max-width: 480px) {
+		[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+		font-family: Flaticon;
+    	font-size: 5em;
+		font-style: normal;
+	}	
+}
+

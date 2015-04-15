@@ -100,11 +100,11 @@ nav a:hover {
 	width:32%;
 }
 .teamintro img {
-	border-radius:50%;
-	display:block;
-	margin-right:2em;
-	width:100%;
+	border-radius: 100%;
+	margin-right: 2em;
+	width: 80%;
 }
+
 .teamintro h3 {
 	color: #333333;
 	font-size: 1.62em;
