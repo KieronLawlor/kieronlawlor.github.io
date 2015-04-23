@@ -11,7 +11,7 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 	font-family: Flaticon;
-    font-size: 15em;
+    font-size: 20em;
 	font-style: normal;
 
 }.flaticon-data78:before {
@@ -33,11 +33,11 @@
 	color: #ffb900;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1206px) {
 		[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 		font-family: Flaticon;
-    	font-size: 15em;
+    	font-size: 20em;
 		font-style: normal;
 	}		
 

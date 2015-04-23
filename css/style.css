@@ -26,7 +26,8 @@ section {
 }
 #splash img {
 	float: left;
-	padding: .5em 0 20em .5em;
+	padding: .5em 0 15% .5em;
+	width: 33%;
 }
 
 #slogan {
@@ -57,7 +58,6 @@ li {
 	padding: .5em 1em;
 	margin-right: 1em;
 	font-weight: bold;
-	border-radius: .5em;
 }
 a {
 	text-decoration: none;
@@ -126,8 +126,7 @@ footer p {
 	height: 0; 
 	clear: both;
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1206px) {
 		
 		h2 {
 			font-size: 1.3em;
@@ -174,7 +173,7 @@ footer p {
 @media only screen and (max-width: 480px) {
 		h2 {
 			color: #A9A9A9;
-			font-size: 1.3em;
+			font-size: 1.2em;
 			padding-top: .6em;
 		}
 		section {
