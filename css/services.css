@@ -1,0 +1,112 @@
+€	*{margin:0;padding:0;box-sizing:border-box;}
+body {
+	color: #C0C0C0;
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+h1 {
+	color: #A9A9A9;
+	font-size: 2.5em;
+}
+h2 {
+	color: #7FBA00;
+}
+section {
+	max-width:75em;
+	margin:7em auto;
+}
+ul {
+    text-align: center;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	font-size: 1.5em;
+	color: #7FBA00;
+	padding: .5em .5em;
+	margin-right: 1em;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: #7FBA00;
+	padding: .2em;
+}
+nav a:hover{
+	background-color: rgba(127,186,0,1);
+	color:#f8f8ff;
+	border-radius: .2em;
+}
+div {
+	padding:1em 0;
+}
+.flaticon {
+	text-align: center;
+}
+hr {
+	height: 5px;
+	background: #62B212;
+	border-radius: 1em;
+}
+footer p {
+	padding: 2em;
+	font-size: 1.62em;
+}
+#wrapper {
+	max-width: 100%;
+	margin: auto;
+}
+#wrapper img {
+	float: left;
+	padding: .5em;
+	width: 30%;
+}
+#wrapper nav {
+	padding-top: 1%;
+	float: right;
+} 
+.services div{
+	width: 50%;
+}
+#businessintelligence {
+	margin: 0;
+}
+#content div{
+	float: right;
+}
+#form div {
+	margin: auto;
+}
+table {
+	width: 60%;
+}
+td {
+	vertical-align: top;
+}
+.readmore {
+	padding: .5em;
+	color: #F8F8FF;
+	background: #7FBA00;
+	display: block;
+	text-align: center;
+	width: 25%;
+	margin-top: .5em;
+}
+.readmore a:hover{
+	background: red;
+}
+#testimonials div {
+	width: 31.3%;
+	float: left;
+	margin: .5%;
+	padding: .5%;
+	background-color: #f3f4f5;
+}
+.clearfix:after,section:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
