@@ -1,4 +1,5 @@
-€	*{margin:0;padding:0;box-sizing:border-box;}
+*{margin:0;padding:0;box-sizing:border-box;}
+
 body {
 	color: #C0C0C0;
 	font-family: 'Roboto', helvetica, sans-serif;
@@ -115,9 +116,105 @@ hr {
 	background: #62B212;
 	border-radius: 1em;
 }
-footer p {
-	padding: 2em;
+footer {
+	max-width: 75em;
+	margin: auto;
+}
+/*footer p {
+	clear: both;
+	padding: 4em;
 	font-size: 1.62em;
+}*/
+footer div{
+	float:left;
+	/*padding: 1em 0;*/
+	width: 15%;
+}
+#social { 
+	max-width: 75em;
+	margin: auto;
+	text-align: center;
+	padding: 2em 0;
+}	
+.clearfix:after,section:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+/*************************************************************
+Services
+*************************************************************/
+h1 {
+	color: #A9A9A9;
+	font-size: 2.5em;
+}
+#testimonials h2 {
+	color: #7FBA00;
+	font-size: 1.5em;	
+}
+#wrapper ul {
+    text-align: center;
+}
+#wrapper li {
+	list-style-type: none;
+	display: inline;
+	font-size: 1.5em;
+	color: #7FBA00;
+	padding: 20em 0;
+	margin-right: 1em;
+	font-weight: bold;
+}
+#wrapper {
+	max-width: 75em;
+	margin: auto;
+}
+#wrapper img {
+	float: left;
+	padding: .5em 0;
+	width: 19em;
+}
+#wrapper nav {
+	padding-top: 1%;
+	float: right;
+} 
+.services div{
+	width: 50%;
+}
+#content p+p {
+	margin: 1em 0;
+}
+#businessintelligence {
+	margin: 0;
+}
+#content div{
+	float: right;
+}
+#form div {
+	margin: auto;
+}
+table {
+	width: 60%;
+}
+td {
+	vertical-align: top;
+}
+#testimonials div {
+	width: 32.3%;
+	float: left;
+	margin: .2em;
+	padding: 2em;
+	background-color: #f3f4f5;
+}
+.consult {
+	padding: .5em;
+	color: #F8F8FF;
+	background: #7FBA00;
+	display: block;
+	text-align: center;
+	width: 25%;
+	margin-top: .5em;
 }
 .clearfix:after,section:after { 
 	content: "."; 
@@ -126,6 +223,9 @@ footer p {
 	height: 0; 
 	clear: both;
 }
+/*************************************************************
+Media
+*************************************************************/
 @media only screen and (max-width: 1206px) {
 		
 		h2 {
