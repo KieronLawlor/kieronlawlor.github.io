@@ -17,20 +17,20 @@ section {
 #splash {
 	color: #F8F8FF;
 	text-align: center;
-	background-image: url('main.jpg');
+	background-image: url('../images/main.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment:fixed;
 	max-width:100%;
 	margin:0;
 	height:100vh;
+	position: relative;
 }
 #splash img {
 	float: left;
 	padding: .5em 0 15% .5em;
 	width: 30%;
 }
-
 #slogan {
 	background: rgba(127,186,0,.8);
 	margin: auto;
@@ -41,6 +41,10 @@ section {
 	width:10.6em;
 	border-radius:.5em;
 	clear: both;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
 
 }
 .nav {
@@ -48,10 +52,10 @@ section {
 	padding: 3%;
 	background-color: #f3f4f5;
 } 	
-ul {
+nav ul {
     text-align: center;
 }
-li {
+nav li {
 	list-style-type: none;
 	display: inline;
 	font-size: 1.62em;
@@ -117,18 +121,16 @@ hr {
 	border-radius: 1em;
 }
 footer {
-	max-width: 75em;
+	max-width: 65em;
 	margin: auto;
 }
-/*footer p {
-	clear: both;
-	padding: 4em;
-	font-size: 1.62em;
-}*/
-footer div{
+footer a{
 	float:left;
-	/*padding: 1em 0;*/
-	width: 15%;
+	width: 20%;
+	color: #a9a9a9;
+}
+footer a:hover{
+	color: #7fba00;
 }
 #social { 
 	max-width: 75em;
@@ -176,11 +178,12 @@ h1 {
 	width: 19em;
 }
 #wrapper nav {
-	padding-top: 1%;
+	padding-top: 1em;
 	float: right;
 } 
 .services div{
 	width: 50%;
+	padding-left: 2em;
 }
 #content p+p {
 	margin: 1em 0;
@@ -213,7 +216,7 @@ td {
 	background: #7FBA00;
 	display: block;
 	text-align: center;
-	width: 25%;
+	width: 10em;
 	margin-top: .5em;
 }
 .clearfix:after,section:after { 
@@ -223,19 +226,56 @@ td {
 	height: 0; 
 	clear: both;
 }
+
+/*************************************************************
+Responsive Nav
+*************************************************************/
+.mobile-nav {
+	display: none;
+}
+.menu-btn div {
+	position: absolute;
+	right: 100%;
+	top: 64%;
+	padding-right: 8px;
+	margin-top: -0.50em;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 200;
+	vertical-align: middle;
+	z-index: 99;
+}
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: #7FBA00;
+	z-index: 99;
+}
+ .responsive-menu{
+	display: none;
+}
+ .expand {
+	display: block !important;
+}
+
 /*************************************************************
 Media
 *************************************************************/
 @media only screen and (max-width: 1206px) {
 		
 		h2 {
-			font-size: 1.3em;
-			/*padding-top: .6em;*/
+			font-size: 1.8em;
 		}
 		section {
 			max-width:75em;
 			margin:1em;
-		}			
+		}
+		#content {
+			max-width:75em;
+			margin:6em 0 6em 0;
+		}					
 		.main p {
 			font-size: 1em
 
@@ -243,7 +283,7 @@ Media
 		.readmore {
 			width: 25%;
 		}
-		li {
+		nav li {
 			font-size: 1.2em;
 			padding: .5em 0;
 		}
@@ -252,14 +292,10 @@ Media
 			padding: .5em 0 12em .5em;
 			width: 50%;
 		}
-		#slogan {
-			font-size: 3em;
-			width:10em;
-		}
 		 .flaticon {
 			padding: 3em 0;
 
-		}
+		}		
 		hr {
 			height: .2em;
 		}
@@ -270,27 +306,100 @@ Media
 		}						
 
 	}
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1123px) {
+		#wrapper li {
+			font-size: 1.3em;
+}						
+
+	}
+@media only screen and (max-width: 1030px) {
+		.services h1 {
+			color: #A9A9A9;
+			font-size: 2em;
+		}
+		#content, #testimonials p {
+			font-size: .9em;
+		}
+		#testimonials h2 {
+			font-size: 1.4em;
+		}
+		#testimonials p {
+			text-align: left;
+		}						
+		.mobile-nav { 
+			display:block;
+			float: right;
+			padding: .2em 2em 0;
+		}
+		#wrapper nav { display:none; }
+		#wrapper li {
+			list-style-type: none;
+			display: block;
+			font-size: 1em;
+			padding: .2em 0;
+			text-align: left;
+			text-decoration: underline;
+			font-weight: bold;
+			background-color: #f3f4f5;
+			}						
+
+	}		
+
+@media only screen and (max-width: 960px) {
+		.main p{
+			text-align: left;
+		}
+		#slogan {
+			font-size: 3em;
+			width:15em;
+		}
+
+	}
+@media only screen and (max-width: 842px) {
+		.services div {
+			padding: 1em 2.5em 0 2.5em;
+		}
+		#testimonials div {
+			float: none;
+			width: 95%;
+			margin: .5em auto;
+			/*padding: 0 2em 0 2em;*/
+		}
+		#testimonials h2 {
+			padding-bottom: .1em ;	
+		}
+		#testimonials p {
+			text-align: justify;	
+		}		
+		#content div {
+			float: none;
+			width: 100%;
+		}
+	
+@media only screen and (max-width: 811px) {	
 		h2 {
 			color: #A9A9A9;
-			font-size: 1.2em;
-			padding-top: .6em;
+			font-size: 2em;
+			padding: 1em 0 1em 0;
 		}
 		section {
 			max-width:75em;
 			margin:0;
 		}		
-		.main p,.nav,.readmore {
+		.main p,.nav {
 			display: none;
 		}
+		.readmore {
+			width: 14em;
+		}		
 		#splash img {
 			float: none;
-			width: 95%;
+			width: 80%;
 			padding: .5em 0 15em .5em;
 		}
 		#slogan {
 			font-size: 3em;
-			width:7em;
+			width:11em;
 		}
 		 .flaticon {
 			padding: 1em 0;
@@ -298,31 +407,30 @@ Media
 		}		
 		#intelligence div{
 			float: right;
+			padding-left: 1em;
 		}
 		#intelligence {
 			background-color: #E8E8E8;
 		}
 		#insight div{
-			float: right;
+			float: left;
 		}
 		#insight {
 			background-color: #f3f4f5;
 		}
 		#marketing div{
 			float: right;
+			padding-left: 1em;			
 		}
 		#marketing {
 			background-color: #E8E8E8;
 		}
 		#integrity div{
-			float: right;
+			float: left;
 		}
 		#integrity {
 			background-color: #f3f4f5;
 		}		
-		.flaticon {
-			text-align: right;
-		}
 		hr {
 			height: .2em;
 			background: #62B212;
@@ -335,5 +443,42 @@ Media
 		}
 		
 	}
+@media only screen and (max-width: 645px) {	
+		h2 {
+			color: #A9A9A9;
+			font-size: 1.4em;
+			padding: 1em 0 1em 0;
+		}
+}
+
+@media only screen and (max-width: 550px) {
+		h2 {
+			color: #A9A9A9;
+			font-size: 1.2em;
+			padding: 1em 0 1em 0;
+		}
+		section {
+			max-width:75em;
+			margin:0;
+		}		
+		.readmore {
+			width: 11em;
+		}		
+		#splash img {
+			float: none;
+			width: 95%;
+			padding: .5em 0 15em .5em;
+		}
+		#slogan {
+			font-size: 3em;
+			width:7em;
+		}
+		#servicesflaticon {
+			display: none;
+		}
+		#content, #testimonials p {
+			text-align: left;
+		}		
+}
 
 

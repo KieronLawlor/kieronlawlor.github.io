@@ -14,66 +14,23 @@
     font-size: 20em;
 	font-style: normal;
 
-/*}.flaticon-data78:before {
-	content: "\e000";
-	color: #7fba00;
-}
-.flaticon-email5:before {
-	content: "\e001";
-	color: #f25022;
-	font-size: 5em;
-}
-.flaticon-facebook2:before {
-	content: "\e002";
-	color: #ffb900;
-	font-size: 5em;
-}
-.flaticon-facebook30:before {
-	content: "\e003";
-	color: #00a4ef;
-	font-size: 5em;
-}
-.flaticon-increasing11:before {
-	content: "\e004";
-	color: #f25022;
-}
-.flaticon-light105:before {
-	content: "\e005";
-	color: #00a4ef;
-}
-.flaticon-telephone5:before {
-	content: "\e006";
-	color: #7fba00;
-	font-size: 5em;
-}
-.flaticon-twitter:before {
-	content: "\e007";
-	color: #f25022;
-	font-size: 5em;
-}
-.flaticon-verified1:before {
-	content: "\e008";
-	color: #ffb900;
-}*/
-
-
 }.flaticon-data78:before {
 	content: "\e000";
 	color: #7fba00;
 }
 .flaticon-email5:before {
 	content: "\e001";
-	color: #B3B3B3;
+	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-facebook2:before {
 	content: "\e002";
-	color: #B3B3B3;
+	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-facebook30:before {
 	content: "\e003";
-	color: #B3B3B3;
+	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-increasing11:before {
@@ -86,12 +43,12 @@
 }
 .flaticon-telephone5:before {
 	content: "\e006";
-	color: #B3B3B3;
+	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-twitter:before {
 	content: "\e007";
-	color: #B3B3B3;
+	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-verified1:before {
@@ -99,21 +56,87 @@
 	color: #ffb900;
 }
 
-
-@media only screen and (max-width: 1206px) {
-		[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-		font-family: Flaticon;
-    	font-size: 20em;
-		font-style: normal;
-	}		
+	@media only screen and (max-width: 1206px) {
+			[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+			[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+			font-family: Flaticon;
+    		font-size: 13em;
+			font-style: normal;
+		}
+			.flaticon-email5:before {
+			content: "\e001";
+			font-size: 4em;
+		}
+			.flaticon-facebook2:before {
+			content: "\e002";
+			font-size: 4em;
+		}
+			.flaticon-facebook30:before {
+			content: "\e003";	
+			font-size: 4em;
+		}
+			.flaticon-telephone5:before {
+			content: "\e006";
+			font-size: 4em;
+		}	
+			.flaticon-twitter:before {
+			content: "\e007";
+			font-size: 4em;
+		}
 
 	}
-@media only screen and (max-width: 480px) {
-		[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-		[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-		font-family: Flaticon;
-    	font-size: 5em;
-		font-style: normal;
-	}	
-}
+	@media only screen and (max-width: 690px) {
+			[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+			[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+			font-family: Flaticon;
+    		font-size: 10em;
+			font-style: normal;
+		}
+			.flaticon-email5:before {
+			content: "\e001";
+			font-size: 4em;
+		}
+			.flaticon-facebook2:before {
+			content: "\e002";
+			font-size: 4em;
+		}
+			.flaticon-facebook30:before {
+			content: "\e003";	
+			font-size: 4em;
+		}
+			.flaticon-telephone5:before {
+			content: "\e006";
+			font-size: 4em;
+		}	
+			.flaticon-twitter:before {
+			content: "\e007";
+			font-size: 4em;
+		}	
+	@media only screen and (max-width: 550px) {
+			[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+			[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+			font-family: Flaticon;
+    		font-size: 5em;
+			font-style: normal;
+		}
+			.flaticon-email5:before {
+			content: "\e001";
+			font-size: 3em;
+		}
+			.flaticon-facebook2:before {
+			content: "\e002";
+			font-size: 3em;
+		}
+			.flaticon-facebook30:before {
+			content: "\e003";	
+			font-size: 3em;
+		}
+			.flaticon-telephone5:before {
+			content: "\e006";
+			font-size: 3em;
+		}	
+			.flaticon-twitter:before {
+			content: "\e007";
+			font-size: 3em;
+		}			
+	}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<meta charset="UTF-8">
 	<title> Data Knowledge</title>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
@@ -20,10 +21,26 @@
 				<li><a href="integrity.html"> Data Integrity</a></li>
 			</ul>
 		</nav>
+		<div class="mobile-nav">
+     		<div class="menu-btn" id="menu-btn">
+			<div></div>
+			<span></span>
+			<span></span>
+			<span></span>
+     	</div>
+      	<div class="responsive-menu">
+        		<ul>
+					<li><a href="intelligence.html"> Business Intelligence</a></li>
+					<li><a href="insight.html"> Insight</a></li>
+					<li><a href="marketing.html"> Database Marketing</a></li>	
+					<li><a href="integrity.html"> Data Integrity</a></li>
+        		</ul>
+     		</div>
+		</div>		
 	</section>
 	<section class="services">
 		<section id="content">
-			<div class="flaticon"><i class="flaticon-increasing11"></i></div>
+			<div id="servicesflaticon" class="flaticon"><i class="flaticon-increasing11"></i></div>
 			<div>
 				<h1>Business Intelligence</h1>
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -39,7 +56,7 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<a class="consult" href="form.html">Free Consultation</a>								
+				<a class="consult" href="#">Free Consultation</a>								
 			</div>
 		</section>
 		<section id="testimonials">
@@ -69,12 +86,19 @@
 	<hr>	
 	<footer class ="clearfix">
 		<section id="social">
-			<div><i class="flaticon-email5"></i></div>
-			<div><i class="flaticon-facebook30"></i></div>
-			<div><i class="flaticon-telephone5"></i></div>
-			<div><i class="flaticon-facebook2"></i></div>
-			<div><i class="flaticon-twitter"></i></div>			
+			<a href="#"><i class="flaticon-email5"></i></a>
+			<a href="#"><i class="flaticon-facebook30"></i></a>
+			<a href="#"><i class="flaticon-telephone5"></i></a>
+			<a href="#"><i class="flaticon-facebook2"></i></a>
+			<a href="#"><i class="flaticon-twitter"></i></a>			
 		</section>	
-	</footer>						
+	</footer>
+		<script type="text/javascript">
+		jQuery(function($){
+			$( '.menu-btn' ).click(function(){
+				$('.responsive-menu').toggleClass('expand')
+			})
+		})
+	</script>								
 </body>
 </html>
