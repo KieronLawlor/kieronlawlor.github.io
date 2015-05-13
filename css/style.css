@@ -28,7 +28,7 @@ section {
 }
 #splash img {
 	float: left;
-	padding: .5em 0 15% .5em;
+	padding: .5em 0 0 .5em;
 	width: 30%;
 }
 #slogan {
@@ -137,7 +137,7 @@ footer a:hover{
 	margin: auto;
 	text-align: center;
 	padding: 2em 0;
-}	
+}
 .clearfix:after,section:after { 
 	content: "."; 
 	visibility: hidden; 
@@ -194,14 +194,19 @@ h1 {
 #content div{
 	float: right;
 }
-#form div {
-	margin: auto;
+#wufoo div {
+	float: left;
+}	
+#contact p {
+	line-height: 170%;
 }
-table {
-	width: 60%;
+#contact h2 {
+	font-size: 1.5em;
 }
-td {
-	vertical-align: top;
+#map {
+	width: 25em;
+	height: 22em;
+	padding-top: 1em;
 }
 #testimonials div {
 	width: 32.3%;
@@ -289,7 +294,7 @@ Media
 		}
 		#splash img {
 			float: left;
-			padding: .5em 0 12em .5em;
+			padding: .5em 0 0 .5em;
 			width: 50%;
 		}
 		 .flaticon {
@@ -353,8 +358,20 @@ Media
 			font-size: 3em;
 			width:15em;
 		}
-
 	}
+@media only screen and (max-width: 890px) {
+		#wufoo div {
+			float: none;
+			width: 95%;
+		}
+		#map {
+			width: 35em;
+		}
+		#contact {
+			margin: 0 auto;
+		}
+	}
+
 @media only screen and (max-width: 842px) {
 		.services div {
 			padding: 1em 2.5em 0 2.5em;
@@ -363,7 +380,6 @@ Media
 			float: none;
 			width: 95%;
 			margin: .5em auto;
-			/*padding: 0 2em 0 2em;*/
 		}
 		#testimonials h2 {
 			padding-bottom: .1em ;	
@@ -382,6 +398,9 @@ Media
 			font-size: 2em;
 			padding: 1em 0 1em 0;
 		}
+		#contact h2 {
+			padding-bottom: .1em; 
+		}
 		section {
 			max-width:75em;
 			margin:0;
@@ -395,7 +414,7 @@ Media
 		#splash img {
 			float: none;
 			width: 80%;
-			padding: .5em 0 15em .5em;
+			padding: .5em 0 0 .5em;
 		}
 		#slogan {
 			font-size: 3em;
@@ -450,7 +469,11 @@ Media
 			padding: 1em 0 1em 0;
 		}
 }
-
+@media only screen and (max-width: 625px) {	
+		#map {
+			width: 30em;
+		}
+}
 @media only screen and (max-width: 550px) {
 		h2 {
 			color: #A9A9A9;
@@ -467,7 +490,7 @@ Media
 		#splash img {
 			float: none;
 			width: 95%;
-			padding: .5em 0 15em .5em;
+			padding: .5em 0 0 .5em;
 		}
 		#slogan {
 			font-size: 3em;
@@ -478,7 +501,10 @@ Media
 		}
 		#content, #testimonials p {
 			text-align: left;
-		}		
+		}
+		#map {
+			width: 20em;
+			height: 20em;		
 }
 
 
