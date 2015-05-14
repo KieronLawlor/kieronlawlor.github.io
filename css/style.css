@@ -376,6 +376,9 @@ Media
 		.services div {
 			padding: 1em 2.5em 0 2.5em;
 		}
+		#servicesflaticon {
+			padding-bottom: 4.5em;
+		} 
 		#testimonials div {
 			float: none;
 			width: 95%;
@@ -486,7 +489,10 @@ Media
 		}		
 		.readmore {
 			width: 11em;
-		}		
+		}
+/*		#splash {
+			background: none;
+		}*/
 		#splash img {
 			float: none;
 			width: 95%;
