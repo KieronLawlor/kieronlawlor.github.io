@@ -268,7 +268,7 @@ Responsive Nav
 /*************************************************************
 Media
 *************************************************************/
-@media only screen and (max-width: 1206px) {
+@media only screen and (min-width:1124px) and (max-width: 1206px) {
 		
 		h2 {
 			font-size: 1.8em;
@@ -510,7 +510,14 @@ Media
 		}
 		#map {
 			width: 20em;
-			height: 20em;		
+			height: 20em;	
+		}
+		#splash {
+			background-image: url('../images/main.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment:scroll;
+		}
 }
 
 
