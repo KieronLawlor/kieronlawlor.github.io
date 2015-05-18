@@ -6,11 +6,12 @@ body {
 	font-size: 16px;
 	text-align: justify;
 }
+
 h2 {
 	color: #A9A9A9;
 	font-size: 2.5em;
 }
-section {
+section, main, header {
 	max-width:75em;
 	margin:7em auto;
 }
@@ -80,12 +81,12 @@ div {
 div img {
 	width:100%;
 }
-.main p{
+main p{
 	font-family: 'Libre Baskerville', serif;
 	line-height: 140%;
 	text-align: justify;
 }
-.main div{
+main div{
 	width: 50%;
 }
 .readmore {
@@ -148,7 +149,7 @@ footer a:hover{
 /*************************************************************
 Services
 *************************************************************/
-h1 {
+.services h1 {
 	color: #A9A9A9;
 	font-size: 2.5em;
 }
@@ -156,7 +157,7 @@ h1 {
 	color: #7FBA00;
 	font-size: 1.5em;	
 }
-#wrapper ul {
+/*#wrapper ul {
     text-align: center;
 }
 #wrapper li {
@@ -178,6 +179,31 @@ h1 {
 	width: 19em;
 }
 #wrapper nav {
+	padding-top: 1em;
+	float: right;
+} */
+header ul {
+    text-align: center;
+}
+header li {
+	color: #7FBA00;	
+	display: inline;
+	font-size: 1.5em;
+	font-weight: bold;			
+	list-style-type: none;
+	margin-right: 1em;
+	padding: 20em 0;
+}
+header {
+	max-width: 75em;
+	margin: auto;
+}
+header img {
+	float: left;
+	padding: .5em 0;
+	width: 19em;
+}
+header nav {
 	padding-top: 1em;
 	float: right;
 } 
@@ -264,6 +290,7 @@ Responsive Nav
 }
  .expand {
  	background-color: #f3f4f5;
+ 	box-shadow: 5px 5px 5px #7FBA00;
  	display: block !important;		
 	position: absolute;
 	right: 2%;
@@ -280,7 +307,7 @@ Media
 		h2 {
 			font-size: 1.8em;
 		}
-		section {
+		section, main{
 			max-width:75em;
 			margin:1em;
 		}
@@ -288,10 +315,10 @@ Media
 			max-width:75em;
 			margin:6em 0 6em 0;
 		}					
-		.main p {
+		main p {
 			font-size: 1em
 
-		}
+		}		
 		.readmore {
 			width: 25%;
 		}
@@ -319,9 +346,12 @@ Media
 	}
 /*@media only screen and (min-width:1129px) and (max-width: 1123px) {*/
 @media only screen and (max-width: 1123px) {
-		#wrapper li {
+/*		#wrapper li {
 			font-size: 1.3em;
-}						
+		}*/
+		header li {
+			font-size: 1.3em;
+		}								
 	}
 /*@media only screen and (min-width:959px)  and (max-width: 1030px) {*/
 @media only screen and (max-width: 1030px) {	
@@ -344,27 +374,36 @@ Media
 			margin-right: 1em;
 		}
 		
-		#wrapper nav { display:none; }
+/*		#wrapper nav { display:none; }
 		
 		#wrapper li {
 			display: block;	
-			font-size: 1em;	
+			font-size: 1.2em;	
 			font-weight: bold;			
 			list-style-type: none;
 			margin: 1em;
 			padding: .2em 0;
-			text-align: left;
-			text-decoration: underline;
-			}						
+			text-align: right;
+			}*/
+		header nav { display:none; }
+		
+		header li {
+			display: block;	
+			font-size: 1.2em;	
+			font-weight: bold;			
+			list-style-type: none;
+			margin: 1em;
+			padding: .2em 0;
+			text-align: right;
+			}									
 	}		
 /*@media only screen and (min-width:891px) and (max-width: 960px) {*/
-@media only screen and (max-width: 960px) {	
-		.main p{
+@media only screen and (max-width: 960px) {
+		main p{
 			text-align: left;
-		}
+		}		
 		#slogan {
 			font-size: 4em;
-			/*width:15em;*/
 		}
 		nav li {
 			font-size: 1.3em;
@@ -418,13 +457,13 @@ Media
 		#contact h2 {
 			padding-bottom: .1em; 
 		}
-		section {
+		section, main, header {
 			max-width:75em;
 			margin:0;
 		}		
-		.main p,.nav {
+		main p,.nav {
 			display: none;
-		}
+		}		
 		.readmore {
 			width: 14em;
 		}		
@@ -498,15 +537,15 @@ Media
 			font-size: 1.2em;
 			padding: 1em 0 1em 0;
 		}
-		section {
+		section, main, header {
 			max-width:75em;
 			margin:0;
+		}
+		#content {
+			margin-top: 3em;
 		}		
 		.readmore {
 			width: 10em;
-		}
-		#splash {
-			background: none;
 		}
 		#splash img {
 			float: none;
@@ -516,6 +555,7 @@ Media
 		#slogan {
 			font-size: 2.5em;
 			width:7em;
+
 		}
 		#content, #testimonials p {
 			text-align: left;
@@ -531,7 +571,10 @@ Media
 			background-size: cover;
 			background-attachment:scroll;
 		}
-		#wrapper img {
+/*		#wrapper img {
+			width: 15em;
+		}*/
+		header img {
 			width: 15em;
 		}
 }
