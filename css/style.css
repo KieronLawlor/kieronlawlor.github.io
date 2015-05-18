@@ -342,7 +342,10 @@ Media
 			font-size: 1.3em;			
 			padding: 1em;
 			text-align: center;
-		}						
+		}
+		#wufoo div {
+			float: none;
+		}				
 	}
 /*@media only screen and (min-width:1129px) and (max-width: 1123px) {*/
 @media only screen and (max-width: 1123px) {
@@ -413,7 +416,6 @@ Media
 /*@media only screen and (min-width:843px) and (max-width: 890px) {*/
 @media only screen and (max-width: 890px) {	
 		#wufoo div {
-			float: none;
 			width: 95%;
 		}
 		#map {
