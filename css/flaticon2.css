@@ -20,17 +20,14 @@
 }
 .flaticon-email5:before {
 	content: "\e001";
-	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-facebook2:before {
 	content: "\e002";
-	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-facebook30:before {
 	content: "\e003";
-	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-increasing11:before {
@@ -43,19 +40,19 @@
 }
 .flaticon-telephone5:before {
 	content: "\e006";
-	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-twitter:before {
 	content: "\e007";
-	/*color: #a9a9a9;*/
 	font-size: 5em;
 }
 .flaticon-verified1:before {
 	content: "\e008";
 	color: #ffb900;
 }
-
+/*************************************************************
+Media
+*************************************************************/
 	@media only screen and (max-width: 1206px) {
 			[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 			[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
@@ -83,7 +80,18 @@
 			content: "\e007";
 			font-size: 4em;
 		}
-
+			#content .flaticon-increasing11:before  {
+			font-size: 20em;
+		}
+			#content .flaticon-light105:before {
+			font-size: 20em;
+		} 
+			#content .flaticon-data78:before {
+			font-size: 20em;
+		}
+			#content .flaticon-verified1:before {
+			font-size: 20em;
+		} 		 					
 	}
 	@media only screen and (max-width: 690px) {
 			[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
@@ -111,7 +119,19 @@
 			.flaticon-twitter:before {
 			content: "\e007";
 			font-size: 4em;
-		}	
+		}
+			#content .flaticon-increasing11:before  {
+			font-size: 15em;
+		}
+			#content .flaticon-light105:before {
+			font-size: 15em;
+		} 
+			#content .flaticon-data78:before {
+			font-size: 15em;
+		}
+			#content .flaticon-verified1:before {
+			font-size: 15em;
+		}			
 	@media only screen and (max-width: 550px) {
 			[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 			[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
@@ -138,5 +158,17 @@
 			.flaticon-twitter:before {
 			content: "\e007";
 			font-size: 3em;
-		}			
+		}
+			#content .flaticon-increasing11:before  {
+			font-size: 12em;
+		}
+			#content .flaticon-light105:before {
+			font-size: 12em;
+		} 
+			#content .flaticon-data78:before {
+			font-size: 12em;
+		}
+			#content .flaticon-verified1:before {
+			font-size: 12em;
+		}					
 	}

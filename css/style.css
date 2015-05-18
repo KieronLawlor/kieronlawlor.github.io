@@ -15,16 +15,16 @@ section {
 	margin:7em auto;
 }
 #splash {
-	color: #F8F8FF;
-	text-align: center;
 	background-image: url('../images/main.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment:fixed;
+	color: #F8F8FF;
+	height:100vh;
 	max-width:100%;
 	margin:0;
-	height:100vh;
-	position: relative;
+	position: relative;	
+	text-align: center;
 }
 #splash img {
 	float: left;
@@ -33,41 +33,40 @@ section {
 }
 #slogan {
 	background: rgba(127,186,0,.8);
-	margin: auto;
-	font-size: 5em;
-	font-weight: bold;
-	padding:.3em;
-	text-align: left;
-	width:10.6em;
 	border-radius:.5em;
 	clear: both;
+	font-size: 5em;
+	font-weight: bold;		
+	margin: auto;
+	padding:.3em;
 	position: absolute;
 	top:50%;
 	left:50%;
 	-webkit-transform:translate(-50%,-50%);
-	transform:translate(-50%,-50%);
-
+	transform:translate(-50%,-50%);	
+	text-align: left;
+	width:10.6em;
 }
 .nav {
+	background-color: #f3f4f5;	
 	max-width:100%;
 	padding: 3%;
-	background-color: #f3f4f5;
 } 	
 nav ul {
     text-align: center;
 }
 nav li {
-	list-style-type: none;
+	color: #7FBA00;	
 	display: inline;
 	font-size: 1.62em;
-	color: #7FBA00;
-	padding: .5em 1em;
-	margin-right: 1em;
 	font-weight: bold;
+	list-style-type: none;	
+	margin-right: 1em;				
+	padding: .5em 1em;
 }
 a {
-	text-decoration: none;
 	color: #7FBA00;
+	text-decoration: none;
 	padding: .2em;
 }
 nav a:hover{
@@ -90,13 +89,13 @@ div img {
 	width: 50%;
 }
 .readmore {
-	padding: .5em;
-	color: #F8F8FF;
 	background: #7FBA00;
-	display: block;
+	color: #F8F8FF;	
+	display: block;	
+	margin-top: .5em;		
+	padding: .5em;
 	text-align: center;
 	width: 20%;
-	margin-top: .5em;
 }
 .readmore a:hover{
 	background: red;
@@ -117,18 +116,18 @@ div img {
 	float: left;
 }
 hr {
-	height: 5px;
 	background: #62B212;
-	border-radius: 1em;
+	border-radius: 1em;	
+	height: 5px;
 }
 footer {
 	max-width: 65em;
 	margin: auto;
 }
 footer a{
+	color: #a9a9a9;	
 	float:left;
 	width: 20%;
-	color: #a9a9a9;
 }
 footer a:hover{
 	color: #7fba00;
@@ -140,11 +139,11 @@ footer a:hover{
 	padding: 2em 0;
 }
 .clearfix:after,section:after { 
-	content: "."; 
+	clear: both;	
+	content: ".";
+	display: block;
+	height: 0; 	 
 	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
 }
 /*************************************************************
 Services
@@ -161,13 +160,13 @@ h1 {
     text-align: center;
 }
 #wrapper li {
-	list-style-type: none;
+	color: #7FBA00;	
 	display: inline;
 	font-size: 1.5em;
-	color: #7FBA00;
-	padding: 20em 0;
+	font-weight: bold;			
+	list-style-type: none;
 	margin-right: 1em;
-	font-weight: bold;
+	padding: 20em 0;
 }
 #wrapper {
 	max-width: 75em;
@@ -205,32 +204,32 @@ h1 {
 	font-size: 1.5em;
 }
 #map {
-	width: 25em;
 	height: 22em;
-	padding-top: 1em;
+	padding-top: 1em;	
+	width: 25em;
 }
 #testimonials div {
-	width: 32.3%;
+	background-color: #f3f4f5;
 	float: left;
 	margin: .2em;
-	padding: 2em;
-	background-color: #f3f4f5;
+	padding: 2em;			
+	width: 32.3%;
 }
 .consult {
-	padding: .5em;
-	color: #F8F8FF;
 	background: #7FBA00;
+	color: #F8F8FF;
 	display: block;
+	margin-top: .5em;				
+	padding: .5em;
 	text-align: center;
 	width: 10em;
-	margin-top: .5em;
 }
 .clearfix:after,section:after { 
 	content: "."; 
+	clear: both;	
+	display: block;
+	height: 0; 	 	
 	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
 }
 
 /*************************************************************
@@ -238,11 +237,12 @@ Responsive Nav
 *************************************************************/
 .mobile-nav {
 	display: none;
+	padding: 0;
 }
 .menu-btn div {
 	position: absolute;
 	right: 100%;
-	top: 64%;
+	top: 2%;
 	padding-right: 8px;
 	margin-top: -0.50em;
 	line-height: 1.2;
@@ -253,8 +253,8 @@ Responsive Nav
 }
 .menu-btn span {
 	display: block;
-	width: 19px;
-	height: 3px;
+	width: 1.5em;
+	height: .2em;
 	margin: 4px 0;
 	background: #7FBA00;
 	z-index: 99;
@@ -263,13 +263,19 @@ Responsive Nav
 	display: none;
 }
  .expand {
-	display: block !important;
+ 	background-color: #f3f4f5;
+ 	display: block !important;		
+	position: absolute;
+	right: 2%;
+	top: 8%;
 }
 
 /*************************************************************
 Media
 *************************************************************/
-@media only screen and (min-width:1124px) and (max-width: 1206px) {
+
+/*@media only screen and (min-width:1124px) and (max-width: 1206px) {*/
+@media only screen and (max-width: 1206px) {
 		
 		h2 {
 			font-size: 1.8em;
@@ -290,7 +296,7 @@ Media
 			width: 25%;
 		}
 		nav li {
-			font-size: 1.2em;
+			font-size: 1.5em;
 			padding: .5em 0;
 		}
 		#splash img {
@@ -306,19 +312,19 @@ Media
 			height: .2em;
 		}
 		footer p {
+			font-size: 1.3em;			
 			padding: 1em;
-			font-size: 1.3em;
 			text-align: center;
 		}						
-
 	}
+/*@media only screen and (min-width:1129px) and (max-width: 1123px) {*/
 @media only screen and (max-width: 1123px) {
 		#wrapper li {
 			font-size: 1.3em;
 }						
-
 	}
-@media only screen and (max-width: 1030px) {
+/*@media only screen and (min-width:959px)  and (max-width: 1030px) {*/
+@media only screen and (max-width: 1030px) {	
 		.services h1 {
 			color: #A9A9A9;
 			font-size: 2em;
@@ -335,32 +341,38 @@ Media
 		.mobile-nav { 
 			display:block;
 			float: right;
-			padding: .2em 2em 0;
+			margin-right: 1em;
 		}
+		
 		#wrapper nav { display:none; }
+		
 		#wrapper li {
+			display: block;	
+			font-size: 1em;	
+			font-weight: bold;			
 			list-style-type: none;
-			display: block;
-			font-size: 1em;
+			margin: 1em;
 			padding: .2em 0;
 			text-align: left;
 			text-decoration: underline;
-			font-weight: bold;
-			background-color: #f3f4f5;
 			}						
-
 	}		
-
-@media only screen and (max-width: 960px) {
+/*@media only screen and (min-width:891px) and (max-width: 960px) {*/
+@media only screen and (max-width: 960px) {	
 		.main p{
 			text-align: left;
 		}
 		#slogan {
-			font-size: 3em;
-			width:15em;
+			font-size: 4em;
+			/*width:15em;*/
+		}
+		nav li {
+			font-size: 1.3em;
+			padding: .5em 0;
 		}
 	}
-@media only screen and (max-width: 890px) {
+/*@media only screen and (min-width:843px) and (max-width: 890px) {*/
+@media only screen and (max-width: 890px) {	
 		#wufoo div {
 			float: none;
 			width: 95%;
@@ -373,7 +385,8 @@ Media
 		}
 	}
 
-@media only screen and (max-width: 842px) {
+/*@media only screen and (min-width:812px) and (max-width: 842px) {*/
+@media only screen and (max-width: 842px) {	
 		.services div {
 			padding: 1em 2.5em 0 2.5em;
 		}
@@ -382,8 +395,8 @@ Media
 		} 
 		#testimonials div {
 			float: none;
+			margin: .5em auto;			
 			width: 95%;
-			margin: .5em auto;
 		}
 		#testimonials h2 {
 			padding-bottom: .1em ;	
@@ -395,7 +408,7 @@ Media
 			float: none;
 			width: 100%;
 		}
-	
+/*@media only screen and (min-width:646px) and (max-width: 811px) {*/
 @media only screen and (max-width: 811px) {	
 		h2 {
 			color: #A9A9A9;
@@ -455,17 +468,17 @@ Media
 			background-color: #f3f4f5;
 		}		
 		hr {
-			height: .2em;
 			background: #62B212;
-			border-radius: 1em;
+			border-radius: 1em;			
+			height: .2em;
 		}
 		footer p {
-			padding: 1em;
 			font-size: 1.3em;
-			text-align: center;
+			text-align: center;			
+			padding: 1em;
 		}
-		
 	}
+/*@media only screen and (min-width:626px) and (max-width: 645px) {*/
 @media only screen and (max-width: 645px) {	
 		h2 {
 			color: #A9A9A9;
@@ -473,6 +486,7 @@ Media
 			padding: 1em 0 1em 0;
 		}
 }
+/*@media only screen and (min-width:551px) and (max-width: 625px) {*/
 @media only screen and (max-width: 625px) {	
 		#map {
 			width: 30em;
@@ -491,27 +505,24 @@ Media
 		.readmore {
 			width: 11em;
 		}
-/*		#splash {
+		#splash {
 			background: none;
-		}*/
+		}
 		#splash img {
 			float: none;
 			width: 95%;
 			padding: .5em 0 0 .5em;
 		}
 		#slogan {
-			font-size: 3em;
-			width:7em;
-		}
-		#servicesflaticon {
-			display: none;
+			font-size: 2.8em;
+			width:8em;
 		}
 		#content, #testimonials p {
 			text-align: left;
 		}
 		#map {
+			height: 20em;				
 			width: 20em;
-			height: 20em;	
 		}
 		#splash {
 			background-image: url('../images/main.jpg');
@@ -519,6 +530,10 @@ Media
 			background-size: cover;
 			background-attachment:scroll;
 		}
+		#wrapper img {
+			width: 15em;
+		}
 }
+
 
 
