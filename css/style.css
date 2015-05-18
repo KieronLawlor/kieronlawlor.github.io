@@ -503,7 +503,7 @@ Media
 			margin:0;
 		}		
 		.readmore {
-			width: 11em;
+			width: 10em;
 		}
 		#splash {
 			background: none;
@@ -514,7 +514,7 @@ Media
 			padding: .5em 0 0 .5em;
 		}
 		#slogan {
-			font-size: 2.8em;
+			font-size: 2.5em;
 			width:7em;
 		}
 		#content, #testimonials p {
