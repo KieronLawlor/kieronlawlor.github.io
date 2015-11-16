@@ -102,7 +102,7 @@ Media
 			font-size: 1.5em;
 		}
 	}
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 320px) {
 		main {
 			margin:30% auto;
 		}
