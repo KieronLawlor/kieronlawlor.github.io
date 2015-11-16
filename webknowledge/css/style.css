@@ -104,7 +104,7 @@ Media
 	}
 @media only screen and (max-width: 320px) {
 		main {
-			margin:30% auto;
+			margin:25% auto;
 		}
 		h1 {
 			font-size: 1.2em;
