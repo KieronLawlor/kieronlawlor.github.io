@@ -88,8 +88,24 @@ Media
 			font-size: 1.5em;
 		}
 		img {
-			width: 19.75em;
+			width: 100%;
 			padding: .5em;
 		}
-
+@media only screen and (max-width: 350px) {
+		main {
+			margin:40% auto;
+		}
+		h1 {
+			font-size: 1em;
+		}
+		p {
+			font-size: 1em;
+		}
+		body {
+			color: #C0C0C0;
+			font-family: 'Roboto', helvetica, sans-serif;
+			font-size: 16px;
+			text-align: justify;
+			background-image: none;
+		}
 	}						
