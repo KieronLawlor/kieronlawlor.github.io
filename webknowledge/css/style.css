@@ -96,12 +96,9 @@ Media
 			margin:40% auto;
 		}
 		h1 {
-			font-size: 1em;
+			font-size: 1.5em;
 		}
 		p {
-			font-size: 1em;
-		}
-		body {
-			background-image: none;
+			font-size: 1.5em;
 		}
 	}						
