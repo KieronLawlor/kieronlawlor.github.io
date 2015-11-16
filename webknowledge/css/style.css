@@ -93,7 +93,7 @@ Media
 		}
 @media only screen and (max-width: 390px) {
 		main {
-			margin:40% auto;
+			margin:35% auto;
 		}
 		h1 {
 			font-size: 1.5em;
@@ -101,4 +101,15 @@ Media
 		p {
 			font-size: 1.5em;
 		}
-	}						
+	}
+@media only screen and (max-width: 300px) {
+		main {
+			margin:30% auto;
+		}
+		h1 {
+			font-size: 1.2em;
+		}
+		p {
+			font-size: 1em;
+		}
+	}							
