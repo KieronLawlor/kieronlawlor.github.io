@@ -10,9 +10,11 @@ body {
 	background-attachment:fixed;
 }
 main {
-	max-width:75em;
-	max-height: 100%;
-	margin:15% auto;
+	width: 100%;
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 img {
 	width: 19.75em;
@@ -43,21 +45,21 @@ p {
 Media
 *************************************************************/
 @media only screen and (max-width: 900px) {
-		main {
+/*		main {
 			margin:18% auto;
-		}
+		}*/
 				
 	}
 @media only screen and (max-width: 800px) {
-		main {
+/*		main {
 			margin:20% auto;
-		}
+		}*/
 				
 	}
 @media only screen and (max-width: 665px) {
-		main {
+/*		main {
 			margin:20% auto;
-		}
+		}*/
 		h1 {
 			font-size: 2.5em;
 		}
@@ -67,9 +69,9 @@ Media
 				
 	}
 @media only screen and (max-width: 565px) {
-		main {
+/*		main {
 			margin:30% auto;
-		}
+		}*/
 		h1 {
 			font-size: 2em;
 		}
@@ -78,9 +80,9 @@ Media
 		}						
 	}
 @media only screen and (max-width: 450px) {
-		main {
+/*		main {
 			margin:40% auto;
-		}
+		}*/
 		h1 {
 			font-size: 1.75em;
 		}
@@ -92,9 +94,9 @@ Media
 			padding: .5em;
 		}
 @media only screen and (max-width: 390px) {
-		main {
+/*		main {
 			margin:35% auto;
-		}
+		}*/
 		h1 {
 			font-size: 1.5em;
 		}
@@ -103,9 +105,9 @@ Media
 		}
 	}
 @media only screen and (max-width: 320px) {
-		main {
+/*		main {
 			margin:25% auto;
-		}
+		}*/
 		h1 {
 			font-size: 1.2em;
 		}
