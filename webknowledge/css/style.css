@@ -1,0 +1,95 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+body {
+	color: #C0C0C0;
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	background-image: url('../images/white-room-background_web.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+main {
+	max-width:75em;
+	max-height: 100%;
+	margin:15% auto;
+}
+img {
+	width: 19.75em;
+	padding: .5em;
+}
+h1 {
+	font-size: 3em;
+	text-align: center;
+	padding-bottom: .5em;
+	color: #7fba00;
+}
+.highlight {
+	color: #7fba00;
+}
+a {
+	color: #C0C0C0;
+	text-decoration: none;
+}
+a:hover {
+	color: #7fba00;
+}	
+p {
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: .5em;
+}
+/*************************************************************
+Media
+*************************************************************/
+@media only screen and (max-width: 900px) {
+		main {
+			margin:18% auto;
+		}
+				
+	}
+@media only screen and (max-width: 800px) {
+		main {
+			margin:20% auto;
+		}
+				
+	}
+@media only screen and (max-width: 665px) {
+		main {
+			margin:20% auto;
+		}
+		h1 {
+			font-size: 2.5em;
+		}
+		p {
+			font-size: 1.5em;
+		}
+				
+	}
+@media only screen and (max-width: 565px) {
+		main {
+			margin:30% auto;
+		}
+		h1 {
+			font-size: 2em;
+		}
+		p {
+			font-size: 1.5em;
+		}						
+	}
+@media only screen and (max-width: 450px) {
+		main {
+			margin:40% auto;
+		}
+		h1 {
+			font-size: 1.75em;
+		}
+		p {
+			font-size: 1.5em;
+		}
+		img {
+			width: 19.75em;
+			padding: .5em;
+		}
+
+	}						
